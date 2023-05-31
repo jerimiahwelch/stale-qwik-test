@@ -5,6 +5,8 @@ export const ExampleTest = component$((props: { flag: boolean }) => {
     counter: 0,
   });
 
+  console.log('old content')
+
   return (
     <>
       <span>Count:{state.counter}</span>
