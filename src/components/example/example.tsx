@@ -6,6 +6,7 @@ export const ExampleTest = component$((props: { flag: boolean }) => {
   });
 
   console.log('old content')
+  debugger
 
   return (
     <>
